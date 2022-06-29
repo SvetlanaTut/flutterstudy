@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
-    registered(name: "Скорость", speed: "55 км/ч.");
+    registered();
 
     setState(() {
       // This call to setState tells the Flutter framework that something has
